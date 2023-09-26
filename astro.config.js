@@ -5,6 +5,7 @@ import { defineConfig } from 'astro/config'
 export default defineConfig({
   integrations: [tailwind()],
   publicDir: './website/public',
-  // site: 'https://platic.wstone.uk',
+  site: 'https://projects.natemoo.re',
+  base: '/astro-plastic/',
   srcDir: './website',
 })
