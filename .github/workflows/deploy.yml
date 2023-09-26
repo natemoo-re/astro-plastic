@@ -21,9 +21,7 @@ jobs:
       - name: Checkout your repository using git
         uses: actions/checkout@v3
       - name: Install, build, and upload your site output
-        uses: withastro/action@v0
-        with:
-          package-manager: bun
+        uses: withastro/action@v1
 
   deploy:
     needs: build
